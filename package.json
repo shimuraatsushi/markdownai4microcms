@@ -1,0 +1,22 @@
+{
+  "name": "markdownai4microcms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimuraatsushi/markdownai4microcms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shimuraatsushi/markdownai4microcms/issues"
+  },
+  "homepage": "https://github.com/shimuraatsushi/markdownai4microcms#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

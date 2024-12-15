@@ -1,0 +1,18 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <th>title</th>
+        <th>cntent</th>
+      </thead>
+      <tbody>
+        <% for(let i = 0; contents.length > i; i++) { %>
+          <td><%= contents[i]["title"] %></td>
+          <td><%= contents[i]["content"] %></td>
+        <% } %>
+      </tbody>
+    </table>
+  </body>
+</html>

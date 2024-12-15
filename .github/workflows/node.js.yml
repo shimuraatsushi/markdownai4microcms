@@ -10,6 +10,15 @@ env:
   SERVICE_DOMAIN: ${{ secrets.SERVICE_DOMAIN }}
   X_MICROCMS_API_KEY: ${{ secrets.X_MICROCMS_API_KEY }}
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
 

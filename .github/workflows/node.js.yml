@@ -24,7 +24,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-      env:
         SERVICE_DOMAIN: ${{ secrets.SERVICE_DOMAIN }}
         X_MICROCMS_API_KEY: ${{ secrets.X_MICROCMS_API_KEY }}
     - run: |

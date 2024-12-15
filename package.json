@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
     "gen": "ejs ./src/index.ejs -f ./dist/contents.json -o ./_site/index.html",
-    "exec dev": "node --env-file=.env.development ./dist/index.js",
+    "exec_dev": "node --env-file=.env.development ./dist/index.js",
     "exec": "node ./dist/index.js"
   },
   "repository": {

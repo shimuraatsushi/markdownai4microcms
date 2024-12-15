@@ -9,8 +9,10 @@
       </thead>
       <tbody>
         <% for(let i = 0; contents.length > i; i++) { %>
-          <td><%= contents[i]["title"] %></td>
-          <td><%= contents[i]["content"] %></td>
+          <tr>
+            <td><%= contents[i]["title"] %></td>
+            <td><%= contents[i]["content"] %></td>
+          </tr>
         <% } %>
       </tbody>
     </table>

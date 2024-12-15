@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc ./src/index.ts",
-    "gen": "ejs ./src/index.ejs -f contexts.json - ./_site/index.html -O ./dist/contexts.json",
+    "build": "npx tsc",
+    "gen": "ejs ./src/index.ejs -f ./dist/contents.json -o ./_site/index.html",
     "exec": "node --env-file=.env.development ./dist/index.js"
   },
   "repository": {
